@@ -1,6 +1,4 @@
 #pragma once
-#ifndef _ALIBC_CTYPE_H
-#define _ALIBC_CTYPE_H
 
 #define _toupper(x)
 #define _tolower(x)
@@ -22,5 +20,3 @@ extern int isupper(int c);
 //extern int tolower(int c);
 extern int toupper(int c);
 
-
-#endif /* _ALIBC_CTYPE_H */

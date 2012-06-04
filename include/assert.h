@@ -1,6 +1,4 @@
 #pragma once
-#ifndef _ALIBC_ASSERT_H
-#define _ALIBC_ASSERT_H
 
 #include "stdlib.h"
 #include "stdio.h"
