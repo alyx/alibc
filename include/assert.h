@@ -1,3 +1,7 @@
+
+#ifndef _CASSERT_H_
+#define _CASSERT_H_
+
 #ifdef NDEBUG
 
 #include "stdlib.h"
@@ -12,4 +16,6 @@
 
 #else
 #define assert(ignore) ((void) 0)
+#endif
+
 #endif

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _CPIO_H_
+#define _CPIO_H_
 
 #define C_IRUSR   0000400
 #define C_IWUSR   0000200
@@ -22,3 +23,5 @@
 #define C_ISSOCK  0140000
 
 #define MAGIC "070707"
+
+#endif
