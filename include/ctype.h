@@ -1,4 +1,6 @@
-#pragma once
+
+#ifndef _CTYPE_H_
+#define _CTYPE_H_
 
 #define _toupper(x)
 #define _tolower(x)
@@ -20,3 +22,5 @@ extern int isupper(int c);
 //extern int tolower(int c);
 extern int toupper(int c);
 
+
+#endif

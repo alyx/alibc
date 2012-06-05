@@ -1,4 +1,6 @@
-#pragma once
+
+#ifndef _PWD_H_
+#define _PWD_H_
 
 struct passwd
 {
@@ -18,3 +20,5 @@ extern struct passwd *getpwuid(uid_t uid);
 extern int getpwuid_r(uid_t uid, struct passwd *pwd, char *buffer,
         size_t bufsize, struct passwd **result);
 extern void setpwent(void);
+
+#endif

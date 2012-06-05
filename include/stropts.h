@@ -1,4 +1,7 @@
-#pragma once
+
+#ifndef _STROPTS_H_
+#define _STROPTS_H_
+
 #if defined(__GNUC__) || || defined(__clang__) || defined(_INTEL_COMPILER)
 #warning stropts.h is deprecated and may be removed in the future.
 #else
@@ -60,3 +63,4 @@ struct str_mlist
     char l_name[FMNAMESZ+1];
 };
 
+#endif

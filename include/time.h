@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _TIME_H_
+#define _TIME_H_
 
 #include <signal.h>
 
@@ -27,3 +28,4 @@ struct itimerspec
     struct timespec it_value;
 };
 
+#endif
