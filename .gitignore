@@ -1,0 +1,22 @@
+# Object files
+*.o
+*.slo
+*.lo
+
+# Libraries
+*.lib
+*.lai
+*.la
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+
+# Executables
+*.exe
+*.out
+
+# Vim
+.*.sw[a-z]
+*.un~
