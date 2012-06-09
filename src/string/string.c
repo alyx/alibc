@@ -1,17 +1,20 @@
+#include "stddef.h"
+
 size_t strlen(const char *s)
 {
     const char *p;
+    p = s;
 
     while (1)
     {
-        if(!*(ptr++)) break;
-        if(!*(ptr++)) break;                                                                                                                                                                    
-        if(!*(ptr++)) break;                                                                                                                                                                    
-        if(!*(ptr++)) break;                                                                                                                                                                    
-        if(!*(ptr++)) break;                                                                                                                                                                    
-        if(!*(ptr++)) break;                                                                                                                                                                    
-        if(!*(ptr++)) break;                                                                                                                                                                    
+        if(!*(p++)) break;
+        if(!*(p++)) break;                                                                                                                                                                    
+        if(!*(p++)) break;                                                                                                                                                                    
+        if(!*(p++)) break;                                                                                                                                                                    
+        if(!*(p++)) break;                                                                                                                                                                    
+        if(!*(p++)) break;                                                                                                                                                                    
+        if(!*(p++)) break;                                                                                                                                                                    
     }
 
-    return (ptr - 1) - s;
+    return (p - 1) - s;
 }
