@@ -1,4 +1,5 @@
 .globl time
+.type time, @function
 time:
     pushl     %ebx
     xorl      %ebx, %ebx
