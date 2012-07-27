@@ -2,8 +2,11 @@
 
 char *strchr(const char *s, int c)
 {
-    while (*s != (char)c)
-        if (!*s++)
+    const char *copy;
+    copy = s;
+
+    while (*copy != (char)c)
+        if (!*copy++)
             return NULL;
-    return (char *)s;
+    return (char *)copy;
 }
