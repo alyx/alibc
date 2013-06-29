@@ -2,6 +2,8 @@
 
 #include <signal.h>
 
+typedef long int time_t;
+
 struct tm
 {
     int tm_sec;
