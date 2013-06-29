@@ -1,3 +1,4 @@
+#if 0
 #include "string.h"
 
 char *strchr(const char *s, int c)
@@ -10,3 +11,4 @@ char *strchr(const char *s, int c)
             return NULL;
     return (char *)copy;
 }
+#endif
