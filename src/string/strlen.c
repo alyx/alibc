@@ -20,16 +20,7 @@ size_t strlen(const char *s)
     const char *p;
     p = s;
 
-    while (1)
-    {
-        if(!*(p++)) break;
-        if(!*(p++)) break;                                                                                                                                                                    
-        if(!*(p++)) break;                                                                                                                                                                    
-        if(!*(p++)) break;                                                                                                                                                                    
-        if(!*(p++)) break;                                                                                                                                                                    
-        if(!*(p++)) break;                                                                                                                                                                    
-        if(!*(p++)) break;                                                                                                                                                                    
-    }
+    while (*(p++));
 
     return (p - 1) - s;
 }
